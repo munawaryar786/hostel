@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { site } from "@/data/site";
 
-const baseTitle = "New Capital Hotel Lahore";
+const baseTitle = "Al Madina Tul Munawara Hotel Lahore";
 
 export function pageMetadata(title: string, description: string): Metadata {
   return {
@@ -9,11 +9,11 @@ export function pageMetadata(title: string, description: string): Metadata {
     title: title === baseTitle ? title : `${title} | ${baseTitle}`,
     description,
     keywords: [
-      "New Capital Hotel Lahore",
+      "Al Madina Tul Munawara Hotel Lahore",
       "Budget hotel in Lahore",
       "Hotel near Lahore Railway Station",
       "Family hotel in Lahore",
-      "Hotel on McLeod Road Lahore",
+      "Hotel on Data Darbar Bazar, Gunj Bakhsh Rd Lahore",
       "Affordable hotel in Lahore",
       "Business hotel in Lahore",
       "Rooms in Lahore near Railway Station"
@@ -40,7 +40,7 @@ export function hotelJsonLd() {
     name: site.hotelName,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "104 McLeod Road, Qila Gujjar Singh",
+      streetAddress: "Data Darbar Bazar, Gunj Bakhsh Rd, Data Gunj Buksh Town",
       addressLocality: "Lahore",
       addressCountry: "PK"
     },

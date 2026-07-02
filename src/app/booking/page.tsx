@@ -10,7 +10,7 @@ import { whatsappUrl } from "@/lib/utils";
 
 export const metadata: Metadata = pageMetadata(
   "Booking",
-  "Send a demo booking inquiry to New Capital Hotel Lahore for room availability and current rates."
+  "Send a demo booking inquiry to Al Madina Tul Munawara Hotel Lahore for room availability and current rates."
 );
 
 export default function BookingPage() {
@@ -31,7 +31,7 @@ export default function BookingPage() {
             <p className="mt-3 leading-7 text-muted">
               Use the prefilled message to ask reception about room availability, rates, parking support, and arrival time.
             </p>
-            <ButtonLink href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")} className="mt-6">
+            <ButtonLink href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")} className="mt-6">
               WhatsApp Booking Inquiry
             </ButtonLink>
           </aside>

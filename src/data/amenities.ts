@@ -10,5 +10,5 @@ export const amenities = [
   { icon: "Shirt", title: "Laundry Assistance", description: "Ask reception for availability." },
   { icon: "Briefcase", title: "Luggage Assistance", description: "Helpful support for travelers." },
   { icon: "ShieldCheck", title: "Smoke-Free Property", description: "Cleaner shared environment." },
-  { icon: "MapPin", title: "Central Location", description: "McLeod Road, central Lahore." }
+  { icon: "MapPin", title: "Central Location", description: "Data Darbar Bazar, Gunj Bakhsh Rd, central Lahore." }
 ];

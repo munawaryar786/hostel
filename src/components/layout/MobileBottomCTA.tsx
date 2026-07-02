@@ -11,7 +11,7 @@ export function MobileBottomCTA() {
           <Icon name="Phone" className="h-4 w-4" />
           Call
         </ButtonLink>
-        <ButtonLink href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")} variant="outline" className="min-h-12 px-2 text-xs">
+        <ButtonLink href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")} variant="outline" className="min-h-12 px-2 text-xs">
           <Icon name="MessageCircle" className="h-4 w-4" />
           WhatsApp
         </ButtonLink>

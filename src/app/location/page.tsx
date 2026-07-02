@@ -11,11 +11,11 @@ import { whatsappUrl } from "@/lib/utils";
 
 export const metadata: Metadata = pageMetadata(
   "Location",
-  "Find New Capital Hotel on 104 McLeod Road, Qila Gujjar Singh, Lahore near Lahore Railway Station."
+  "Find Al Madina Tul Munawara Hotel on Data Darbar Bazar, Gunj Bakhsh Rd, Data Gunj Buksh Town, Lahore near Lahore Railway Station."
 );
 
 const landmarks = ["Lahore Railway Station", "Walled City Lahore", "Lahore Zoo", "Lakshmi Chowk", "Brandreth Road", "Local restaurants and markets"];
-const tips = ["Confirm your arrival time with reception.", "Ask about parking before arrival.", "Use the McLeod Road address for ride-hailing apps.", "Keep a valid ID available for check-in."];
+const tips = ["Confirm your arrival time with reception.", "Ask about parking before arrival.", "Use the Data Darbar Bazar, Gunj Bakhsh Rd address for ride-hailing apps.", "Keep a valid ID available for check-in."];
 
 export default function LocationPage() {
   return (
@@ -23,7 +23,7 @@ export default function LocationPage() {
       <PageHero
         eyebrow="Location"
         title="Stay Near Lahore Railway Station"
-        subtitle="New Capital Hotel is located on McLeod Road in Qila Gujjar Singh, close to transport points, markets, food spots, and central Lahore landmarks."
+        subtitle="Al Madina Tul Munawara Hotel is located on Data Darbar Bazar, Gunj Bakhsh Rd, Data Gunj Buksh Town, close to transport points, markets, food spots, and central Lahore landmarks."
         image="/images/hotel/exterior-building.jpg"
       />
       <AnimatedSection className="bg-white">
@@ -34,10 +34,10 @@ export default function LocationPage() {
             <p className="mt-3 leading-7 text-muted">{site.address}</p>
             <div className="mt-6 flex flex-col gap-3">
               <ButtonLink href={site.mapUrl}>Get Directions</ButtonLink>
-              <ButtonLink href="tel:+923001234567" variant="outline">
+              <ButtonLink href="tel:+923001170000" variant="outline">
                 Call Reception
               </ButtonLink>
-              <ButtonLink href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")} variant="outline">
+              <ButtonLink href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")} variant="outline">
                 WhatsApp
               </ButtonLink>
             </div>
@@ -48,7 +48,7 @@ export default function LocationPage() {
       <AnimatedSection className="bg-light">
         <Container className="grid gap-8 lg:grid-cols-3">
           <Info title="Nearby Landmarks" items={landmarks} />
-          <Info title="Transport Access" items={["Railway station access nearby", "Local transport points nearby", "Ride-hailing pickup from McLeod Road"]} />
+          <Info title="Transport Access" items={["Railway station access nearby", "Local transport points nearby", "Ride-hailing pickup from Data Darbar Bazar, Gunj Bakhsh Rd"]} />
           <Info title="Arrival Tips" items={tips} />
         </Container>
       </AnimatedSection>

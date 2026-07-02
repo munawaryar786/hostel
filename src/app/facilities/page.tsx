@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
   "Facilities",
-  "Facilities at New Capital Hotel Lahore include Wi-Fi, air-conditioned rooms, private bathrooms, front desk support, and family rooms."
+  "Facilities at Al Madina Tul Munawara Hotel Lahore include Wi-Fi, air-conditioned rooms, private bathrooms, front desk support, and family rooms."
 );
 
 const sections = [
@@ -38,7 +38,7 @@ export default function FacilitiesPage() {
       <PageHero
         eyebrow="Facilities"
         title="Essential Hotel Facilities for a Practical Stay"
-        subtitle="New Capital Hotel focuses on useful guest comforts, central access, and simple support for families and travelers."
+        subtitle="Al Madina Tul Munawara Hotel focuses on useful guest comforts, central access, and simple support for families and travelers."
         image="/images/hotel/hotel-corridor.jpg"
       />
       <AnimatedSection className="bg-light">

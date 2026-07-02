@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
   "FAQ",
-  "Frequently asked questions about booking, rooms, facilities, location, parking, Wi-Fi, and policies at New Capital Hotel Lahore."
+  "Frequently asked questions about booking, rooms, facilities, location, parking, Wi-Fi, and policies at Al Madina Tul Munawara Hotel Lahore."
 );
 
 export default function FAQPage() {

@@ -19,7 +19,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-[760px] overflow-hidden bg-primary text-white">
       <div className="absolute inset-0">
-        <HotelImage src="/images/hotel/exterior-building.jpg" alt="New Capital Hotel exterior on McLeod Road Lahore" priority sizes="100vw" />
+        <HotelImage src="/images/hotel/exterior-building.jpg" alt="Al Madina Tul Munawara Hotel exterior on Data Darbar Bazar, Gunj Bakhsh Rd Lahore" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-primary/35" />
       </div>
       <Container className="relative flex min-h-[760px] items-center pb-28 pt-20">
@@ -36,11 +36,11 @@ export function HeroSection() {
             Comfortable Budget Stay Near Lahore Railway Station
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-            New Capital Hotel offers affordable rooms, family accommodation, air-conditioned comfort, free Wi-Fi, and 24/7 front desk support on McLeod Road, Lahore.
+            Al Madina Tul Munawara Hotel offers affordable rooms, family accommodation, air-conditioned comfort, free Wi-Fi, and 24/7 front desk support on Data Darbar Bazar, Lahore.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <ButtonLink href="/booking">Book Your Stay</ButtonLink>
-            <ButtonLink href="tel:+923001234567" variant="light">
+            <ButtonLink href="tel:+923001170000" variant="light">
               Call Reception
             </ButtonLink>
             <ButtonLink href="/location" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white hover:text-primary">

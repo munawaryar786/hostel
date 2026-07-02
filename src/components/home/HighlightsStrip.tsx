@@ -5,7 +5,7 @@ import { Icon } from "@/components/ui/Icon";
 const items = [
   ["CheckCircle2", "Budget Friendly", "Practical rates for short and longer stays."],
   ["Users", "Family Rooms", "Room options for families and groups."],
-  ["MapPin", "Central Location", "Near Lahore Railway Station on McLeod Road."],
+  ["MapPin", "Central Location", "Near Lahore Railway Station on Data Darbar Bazar, Gunj Bakhsh Rd."],
   ["Briefcase", "Business Travel Ready", "Simple facilities for work trips."]
 ];
 

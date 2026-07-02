@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
   "About",
-  "Learn about New Capital Hotel Lahore, a practical budget and family hotel on McLeod Road near Lahore Railway Station."
+  "Learn about Al Madina Tul Munawara Hotel Lahore, a practical budget and family hotel on Data Darbar Bazar, Gunj Bakhsh Rd near Lahore Railway Station."
 );
 
 const suitableFor = ["Families visiting Lahore", "Business travelers", "Railway station travelers", "Budget travelers", "Short-stay guests", "Tourists visiting central Lahore"];
@@ -20,9 +20,9 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About New Capital Hotel"
+        eyebrow="About Al Madina Tul Munawara Hotel"
         title="A Practical Budget Hotel in Central Lahore"
-        subtitle="New Capital Hotel serves guests who need affordable rooms, convenient access, and essential comfort near Lahore Railway Station."
+        subtitle="Al Madina Tul Munawara Hotel serves guests who need affordable rooms, convenient access, and essential comfort near Lahore Railway Station."
         image="/images/hotel/reception-view.jpg"
         ctaHref="/booking"
         ctaLabel="Send Booking Inquiry"
@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl font-bold text-primary">Hotel Story and Positioning</h2>
             <p className="mt-5 leading-8 text-muted">
-              New Capital Hotel is designed around honest, practical hospitality. The hotel focuses on central access, useful facilities, and budget-conscious accommodation for real travel needs in Lahore.
+              Al Madina Tul Munawara Hotel is designed around honest, practical hospitality. The hotel focuses on central access, useful facilities, and budget-conscious accommodation for real travel needs in Lahore.
             </p>
             <p className="mt-4 leading-8 text-muted">
               It is not positioned as a luxury property. It is a straightforward option for guests who value location, family room options, air conditioning, Wi-Fi, private bathrooms, and reception support.
@@ -45,7 +45,7 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-soft">
-            <HotelImage src="/images/hotel/lobby-stairs-elevator.jpg" alt="Lobby and stairs at New Capital Hotel" />
+            <HotelImage src="/images/hotel/lobby-stairs-elevator.jpg" alt="Lobby and stairs at Al Madina Tul Munawara Hotel" />
           </div>
         </Container>
       </AnimatedSection>

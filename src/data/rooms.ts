@@ -78,7 +78,7 @@ export const rooms: Room[] = [
     title: "2-Bedroom Unit",
     subtitle: "Separate space for families and groups",
     description:
-      "A multi-bed option for guests who need a practical stay arrangement with convenient access to McLeod Road and nearby markets.",
+      "A multi-bed option for guests who need a practical stay arrangement with convenient access to Data Darbar Bazar, Gunj Bakhsh Rd and nearby markets.",
     image: "/images/hotel/room-amenities-tv.jpg",
     gallery: ["/images/hotel/room-amenities-tv.jpg", "/images/hotel/hotel-corridor.jpg"],
     capacity: "Group capacity to be confirmed",

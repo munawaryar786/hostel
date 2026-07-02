@@ -13,8 +13,8 @@ export function FinalCTA() {
           Send a quick inquiry and reception can confirm current room availability, rates, parking support, and arrival details.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-          <ButtonLink href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")}>Book on WhatsApp</ButtonLink>
-          <ButtonLink href="tel:+923001234567" variant="light">
+          <ButtonLink href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")}>Book on WhatsApp</ButtonLink>
+          <ButtonLink href="tel:+923001170000" variant="light">
             Call Reception
           </ButtonLink>
           <ButtonLink href="/location" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white hover:text-primary">

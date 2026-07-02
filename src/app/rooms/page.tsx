@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
   "Rooms",
-  "Explore double, triple, family, and multi-bed room options at New Capital Hotel Lahore."
+  "Explore double, triple, family, and multi-bed room options at Al Madina Tul Munawara Hotel Lahore."
 );
 
 export default function RoomsPage() {

@@ -17,7 +17,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const room = rooms.find((item) => item.slug === params.slug);
-  return pageMetadata(room?.title ?? "Room", room?.description ?? "Room details at New Capital Hotel Lahore.");
+  return pageMetadata(room?.title ?? "Room", room?.description ?? "Room details at Al Madina Tul Munawara Hotel Lahore.");
 }
 
 export default function RoomDetailPage({ params }: { params: { slug: string } }) {

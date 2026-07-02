@@ -16,7 +16,7 @@ export function Footer() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <ButtonLink href="/booking">Book Your Stay</ButtonLink>
-            <ButtonLink href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")} variant="light">
+            <ButtonLink href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")} variant="light">
               WhatsApp
             </ButtonLink>
           </div>
@@ -59,7 +59,7 @@ export function Footer() {
       </Container>
       <div className="border-t border-white/10 py-5">
         <Container className="flex flex-col gap-2 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
-          <span>Copyright {new Date().getFullYear()} New Capital Hotel. All rights reserved.</span>
+          <span>Copyright {new Date().getFullYear()} Al Madina Tul Munawara Hotel. All rights reserved.</span>
           <span>Frontend demo. Contact details and rates are placeholders.</span>
         </Container>
       </div>

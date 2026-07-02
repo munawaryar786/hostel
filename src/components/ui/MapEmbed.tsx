@@ -1,6 +1,6 @@
 import { site } from "@/data/site";
 
-export function MapEmbed({ title = "New Capital Hotel Lahore map" }: { title?: string }) {
+export function MapEmbed({ title = "Al Madina Tul Munawara Hotel Lahore map" }: { title?: string }) {
   return (
     <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-soft">
       <iframe

@@ -12,7 +12,7 @@ import { whatsappUrl } from "@/lib/utils";
 
 export const metadata: Metadata = pageMetadata(
   "Contact",
-  "Contact New Capital Hotel Lahore for room inquiries, location details, and reception support."
+  "Contact Al Madina Tul Munawara Hotel Lahore for room inquiries, location details, and reception support."
 );
 
 export default function ContactPage() {
@@ -28,7 +28,7 @@ export default function ContactPage() {
         <Container className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid gap-4">
             <Card icon="Phone" title="Call Reception" text={site.phone} href={`tel:${site.phone}`} />
-            <Card icon="MessageCircle" title="WhatsApp" text={site.whatsapp} href={whatsappUrl("Hello New Capital Hotel, I want to inquire about room availability.")} />
+            <Card icon="MessageCircle" title="WhatsApp" text={site.whatsapp} href={whatsappUrl("Hello Al Madina Tul Munawara Hotel, I want to inquire about room availability.")} />
             <Card icon="MapPin" title="Address" text={site.address} href={site.mapUrl} />
             <div className="rounded-lg border border-slate-200 bg-white p-6">
               <h2 className="text-xl font-bold text-primary">Business Hours</h2>

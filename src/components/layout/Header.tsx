@@ -34,9 +34,9 @@ export function Header() {
         className="border-b border-slate-200/80 bg-white/90 backdrop-blur"
       >
         <Container className="flex h-20 items-center justify-between gap-4">
-          <Link href="/" className="focus-ring rounded-md" aria-label="New Capital Hotel home">
-            <span className="block text-lg font-bold text-primary">New Capital Hotel</span>
-            <span className="block text-xs font-medium text-muted">McLeod Road, Lahore</span>
+          <Link href="/" className="focus-ring rounded-md" aria-label="Al Madina Tul Munawara Hotel home">
+            <span className="block text-lg font-bold text-primary">Al Madina Tul Munawara Hotel</span>
+            <span className="block text-xs font-medium text-muted">Data Darbar Bazar, Lahore</span>
           </Link>
           <nav className="hidden items-center gap-5 lg:flex" aria-label="Main navigation">
             {navItems.map((item) => (

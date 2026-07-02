@@ -1,14 +1,14 @@
 export const site = {
-  hotelName: "New Capital Hotel",
+  hotelName: "Al Madina Tul Munawara Hotel",
   tagline: "Comfortable budget stay in central Lahore",
-  address: "104 McLeod Road, Qila Gujjar Singh, Lahore, Pakistan",
-  phone: "+92 300 1234567",
-  whatsapp: "+92 300 1234567",
+  address: "Data Darbar Bazar, Gunj Bakhsh Rd, Data Gunj Buksh Town, Lahore 54000",
+  phone: "0300 1170000",
+  whatsapp: "0300 1170000",
   email: "info@example.com",
   url: "https://example.com",
-  mapUrl: "https://maps.google.com/?q=104+McLeod+Road+Lahore",
+  mapUrl: "https://maps.google.com/?q=Data+Darbar+Bazar+Gunj+Bakhsh+Rd+Data+Gunj+Buksh+Town+Lahore+54000",
   mapEmbedUrl:
-    "https://www.google.com/maps?q=104%20McLeod%20Road%2C%20Qila%20Gujjar%20Singh%2C%20Lahore%2C%20Pakistan&output=embed",
+    "https://www.google.com/maps?q=Data%20Darbar%20Bazar%2C%20Gunj%20Bakhsh%20Rd%2C%20Data%20Gunj%20Buksh%20Town%2C%20Lahore%2054000&output=embed",
   checkIn: "12:00 PM",
   checkOut: "12:00 PM",
   policies: [

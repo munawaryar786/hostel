@@ -13,7 +13,7 @@ export function LocationPreview() {
       <Container className="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
         <div>
           <span className="text-sm font-bold uppercase tracking-[0.14em] text-accent">Location</span>
-          <h2 className="mt-4 text-3xl font-bold text-primary sm:text-4xl">Central Access on McLeod Road</h2>
+          <h2 className="mt-4 text-3xl font-bold text-primary sm:text-4xl">Central Access on Data Darbar Bazar, Gunj Bakhsh Rd</h2>
           <p className="mt-5 leading-8 text-muted">{site.address}. The hotel is placed for easy access to transport points, markets, and central Lahore landmarks.</p>
           <div className="mt-6 grid gap-3 sm:grid-cols-2">
             {nearby.map((place) => (

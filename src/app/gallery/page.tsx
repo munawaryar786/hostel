@@ -8,7 +8,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata(
   "Gallery",
-  "View exterior, reception, room, bathroom, and corridor images for New Capital Hotel Lahore."
+  "View exterior, reception, room, bathroom, and corridor images for Al Madina Tul Munawara Hotel Lahore."
 );
 
 export default function GalleryPage() {

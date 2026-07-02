@@ -12,7 +12,7 @@ const items = [
     icon: "MapPin",
     title: "Central Lahore Location",
     description:
-      "Located on McLeod Road near Lahore Railway Station, making it convenient for travelers, families, and business guests."
+      "Located on Data Darbar Bazar, Gunj Bakhsh Rd near Lahore Railway Station, making it convenient for travelers, families, and business guests."
   },
   {
     icon: "CheckCircle2",
@@ -69,7 +69,7 @@ export function WhyChooseUs({ className }: { className?: string }) {
       <Container>
         <SectionHeading
           eyebrow="Why Choose Us"
-          title="Why Choose New Capital Hotel?"
+          title="Why Choose Al Madina Tul Munawara Hotel?"
           subtitle="A practical, affordable, and centrally located stay option for families, business travelers, and short-stay guests in Lahore."
         />
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

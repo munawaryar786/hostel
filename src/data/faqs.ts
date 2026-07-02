@@ -5,7 +5,7 @@ export const faqs = [
   { category: "Facilities", question: "Are rooms air-conditioned?", answer: "Rooms include air conditioning for a more comfortable stay in Lahore weather." },
   { category: "Facilities", question: "Is Wi-Fi available?", answer: "Free Wi-Fi access is available for guests during their stay." },
   { category: "Policies", question: "What are check-in and check-out times?", answer: "Standard check-in is 12:00 PM and check-out is 12:00 PM. Please confirm special timing needs with reception." },
-  { category: "Location", question: "How close is the hotel to Lahore Railway Station?", answer: "The hotel is located on McLeod Road near Lahore Railway Station, making it practical for railway travelers." },
+  { category: "Location", question: "How close is the hotel to Lahore Railway Station?", answer: "The hotel is located on Data Darbar Bazar, Gunj Bakhsh Rd near Lahore Railway Station, making it practical for railway travelers." },
   { category: "Rooms", question: "Do rooms have private bathrooms?", answer: "Rooms include attached bathroom facilities for privacy and convenience." },
   { category: "Policies", question: "Are pets allowed?", answer: "Pets are not allowed." },
   { category: "Policies", question: "Is breakfast included?", answer: "Breakfast details should be confirmed with reception before booking." }
