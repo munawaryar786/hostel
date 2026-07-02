@@ -33,7 +33,7 @@ export function HeroSection() {
             Budget & Family Hotel in Central Lahore
           </span>
           <h1 className="mt-6 text-4xl font-bold tracking-normal sm:text-5xl lg:text-6xl">
-            Comfortable Budget Stay Near Lahore Railway Station
+            Comfortable Budget Stay in Lahore with all home facilities
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
             Al Madina Tul Munawara Hotel offers affordable rooms, family accommodation, air-conditioned comfort, free Wi-Fi, and 24/7 front desk support on Data Darbar Bazar, Lahore.
